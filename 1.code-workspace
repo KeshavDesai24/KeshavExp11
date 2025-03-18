@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../KeshavPWAexp8"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "KeshavPWAexp8"
+	}
+}
