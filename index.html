@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Movie Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/x-icon" href="popcorn.png">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>MovieFlix</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Movie Flix</h2>
+            <p>Your journey towards Entertainment starts here.</p>
+            <button id="ctaButton">Get Started</button>
+        </div>
+    </section>
+
+    <!-- Carousel Section -->
+    <section class="carousel-container">
+        <div class="carousel">
+            <div class="carousel-item active">
+                <img src="https://i.ytimg.com/vi/cLRqvPUpO04/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=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" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202502/vicky-kaushal--rashmika-mandanna--chhava-box-office-191923961-16x9_0.jpg?VersionId=e4yTxFLsu7cf8D8QmW8i7j_r8lQmFGeX&size=690:388" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://c.ndtvimg.com/2025-01/dm8s87s8_oppose-to-chhava-movie_625x300_24_January_25.jpg?im=FeatureCrop,algorithm=dnn,width=545,height=307" alt="Image 3">
+            </div>
+        </div>
+        <button class="carousel-prev" id="prevBtn">&#10094;</button>
+        <button class="carousel-next" id="nextBtn">&#10095;</button>
+    </section>
+
+    <!-- Main Content Section -->
+    <main>
+        <h2>Movie Stats</h2>
+        <div class="card-container">
+            <div class="card">IMDb Rating 8.1/10</div>
+            <div class="card">Chhaava (2025)</div>
+            <div class="card">Hindi</div>
+            <div class="card">Maddock Films</div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 My Website. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
